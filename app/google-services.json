@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "957953094489",
+    "firebase_url": "https://app-doc-truyen-87d96-default-rtdb.firebaseio.com",
+    "project_id": "app-doc-truyen-87d96",
+    "storage_bucket": "app-doc-truyen-87d96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957953094489:android:1f5e2aabaab0615d5fd248",
+        "android_client_info": {
+          "package_name": "com.example.appdoctruyen_cuoiki"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGUbT9zCZLc7l8JksALTgFDeGvsDiklhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957953094489:android:c4d5e40f6cd111405fd248",
+        "android_client_info": {
+          "package_name": "com.example.doancuoiky_appdoctruyen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGUbT9zCZLc7l8JksALTgFDeGvsDiklhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

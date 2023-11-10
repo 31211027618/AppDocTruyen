@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:id="@+id/rela_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linerLayoutButton"
+        android:layout_centerHorizontal="true">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout_frag3"
+            android:layout_width="match_parent"
+            app:tabIndicatorColor="@color/black"
+            android:background="@color/white"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="#A3A3A3"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabItemFav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lịch sử đọc" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabItemHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Truyện Yêu Thích" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/tabViewPager2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabLayout_frag3" />
+
+    </RelativeLayout>
+</ScrollView>
